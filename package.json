@@ -1,0 +1,24 @@
+{
+  "name": "@able/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infoable/core.git"
+  },
+  "author": "Team InfoAble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infoable/core/issues"
+  },
+  "homepage": "https://github.com/infoable/core#readme",
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
