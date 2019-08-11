@@ -1,10 +1,10 @@
 {
   "name": "@able/core",
-  "version": "1.0.0",
+  "version": "0.0.1-alpha",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc src/index.ts",
+    "build": "tsc",
     "dev": "ts-node src/index.ts"
   },
   "repository": {
@@ -20,5 +20,9 @@
   "devDependencies": {
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.13",
+    "cheerio": "^1.0.0-rc.3"
   }
 }
